@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             
         } else {
             timer.invalidate()
-            titleLable.text = "DONE!"
+            titleLable.text = "Finish!"
             
             let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3")
             player = try! AVAudioPlayer(contentsOf: url!)
